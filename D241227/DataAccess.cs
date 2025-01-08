@@ -8,6 +8,7 @@ public class DataAccess
 {
     public DataAccess()
     {
+        var s = 1;
         Task task = new Task(() => InitializeModbus());
         task.Start();
     }

@@ -43,6 +43,12 @@ public class TextBoxBehavior : Behavior<TextBox>
             DataAccess.WriteRegister(indexInt, value);
         }
 
+        //if (short.TryParse(textBox.Text, out short newValue))
+        //{
+        //    MainViewModel.Instance.Data[index] = newValue;
+        //    DataAccess.WriteRegister(index, newValue);
+        //}
+
         MainViewModel.Instance.IsGetFocus = true;
     }
 

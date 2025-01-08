@@ -80,18 +80,18 @@
         </TextBox>
         <TextBox Text="{Binding DataFloat[4], Source={x:Static local:MainViewModel.Instance}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
         <StackPanel Orientation="Horizontal">
-            <Button
-                Width="50"
-                Height="30"
-                Background="{Binding DataBool[0], Source={x:Static local:MainViewModel.Instance}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource boolToColorConverter}}"
-                Command="{Binding ButtoncmdCommand}"
-                CommandParameter="0" />
-            <Button
-                Width="50"
-                Height="30"
-                Background="{Binding DataBool[1], Source={x:Static local:MainViewModel.Instance}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource boolToColorConverter}}"
-                Command="{Binding ButtoncmdCommand}"
-                CommandParameter="1" />
+        <Button
+            Width="50"
+            Height="30"
+            Background="{Binding DataBool[0], Source={x:Static local:MainViewModel.Instance}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource boolToColorConverter}}"
+            Command="{Binding ButtoncmdCommand}"
+            CommandParameter="0" />
+        <Button
+            Width="50"
+            Height="30"
+            Background="{Binding DataBool[1], Source={x:Static local:MainViewModel.Instance}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource boolToColorConverter}}"
+            Command="{Binding ButtoncmdCommand}"
+            CommandParameter="1" />
             <Button
                 Width="50"
                 Height="30"
